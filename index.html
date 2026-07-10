@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SG Traffic Cameras</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div id="info">Last Update: <span id="time">Loading...</span></div>
+  <div id="map"></div>
+  <div id="zoom-box">
+    <span id="close-btn" onclick="document.getElementById('zoom-box').style.display='none'">&times;</span>
+    <img id="zoom-img" src="" />
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
